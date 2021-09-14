@@ -1,0 +1,116 @@
+body {
+    background-color: #303030;
+    padding: 0 50px;
+    margin: 0;
+}
+
+h1{
+    padding-bottom: 15px;
+    margin:  0;
+}
+.blackShade {
+    background-color: #2a2a2a;
+    color: white;
+    margin:  0;
+    padding-bottom: 15px;
+}
+
+#foot {
+    background-color: black;
+    margin: 0;
+    padding: 7px;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.whiteShade {
+    background-color: white;
+    padding: 20px 0;
+    margin: 0;
+    color: grey;
+}
+
+.constantWidthPage {
+    width: 960px;
+    margin: auto;
+}
+
+
+.galleryCardBig {
+    height: 360px;
+    width: 960px;
+    background-color: #2a2a2a;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galleryCardSmall {
+    height: 315px;
+    width: 215px;
+    background-color: #2a2a2a;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galleryListSmall {
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+  
+li {
+    float: left;
+}
+
+section ul li {
+    border: 5px double rgb(219, 217, 217);
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+section p {
+    background-color: rgb(235, 230, 230);
+    padding: 8px;
+}
+
+h3 {
+    border-bottom: 1px solid rgb(199, 197, 197);
+    margin-top: 40px;
+}
+
+span {
+    margin: auto;
+    color: white;
+    font-family: cursive;
+}
+
+li p {
+    text-align: center;
+    background-color: rgb(235, 230, 230);
+    margin: 0;
+}
